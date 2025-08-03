@@ -12,6 +12,6 @@ accelerate launch examples/text_to_image/train_text_to_image_lora.py \
   --train_batch_size=2 \
   --gradient_accumulation_steps=4 \
   --learning_rate=1e-4 \
-  --max_train_steps=3 \
-  --validation_prompt="TBD" \
+  --max_train_steps=3000 \
+  --validation_prompt=""X_freq":115000,"Y_freq":110000,"X_stiffness":6000,"Y_stiffness":6000" \
   --report_to="wandb"
