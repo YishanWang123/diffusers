@@ -414,6 +414,7 @@ def parse_args():
     parser.add_argument("--max_grad_norm", default=1.0, type=float, help="Max gradient norm.")
     parser.add_argument("--push_to_hub", action="store_true", help="Whether or not to push the model to the Hub.")
     parser.add_argument("--hub_token", type=str, default=None, help="The token to use to push to the Model Hub.")
+    # parser.add_argument("--validation_steps",type=int,default=None,help="Run validation every X steps instead of epochs.",)
     parser.add_argument(
         "--prediction_type",
         type=str,

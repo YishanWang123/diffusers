@@ -71,10 +71,14 @@ instance/
 
 # Scrapy stuff:
 .scrapy
-
+memsdata/
+memsdata0/
+memsdata1/
+memsdata2/
 # Sphinx documentation
 docs/_build/
-
+output/
+all_param_ckpt/
 # PyBuilder
 target/
 
@@ -170,6 +174,8 @@ tags
 
 # RL pipelines may produce mp4 outputs
 *.mp4
+
+
 
 # dependencies
 /transformers
